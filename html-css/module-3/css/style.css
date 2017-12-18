@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+.page {
+    background-color: #54a8ba;
+    padding-top: 240px;
+    padding-bottom: 542px;
+    background-image: url("../img/Homework-3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.wraper {
+    background-attachment: local;
+    width: 480px;
+    height: 1392px;
+    background-color: #fff;
+    margin: auto;
+    padding: 38px;
+    background-attachment: fixed;
+}
+.wraper h2, h4 {
+    color: #263555;
+}
+.wraper h2 {
+    font-family: Pathway Gothic One;
+    text-transform: uppercase;
+}
+.wraper ul {
+    list-style-type: none;
+    padding: 0;
+}
+.list {
+    display: inline-block;
+}
+.first {
+    margin-left: 25px;
+}
+.second {
+    margin-left: 52px;
+    vertical-align: top;
+}
+.line {
+  width: 406px;
+  height: 2px;
+  background-color:  grey; 
+  margin-top: 53px;
+  margin-bottom: 53px;
+}
+.item {
+    padding-bottom: 19px;
+}
+.three p {
+ margin-bottom: 0;
+}
+.list a {
+    text-decoration-line: none;
+    color: #263555;
+    font-weight: 700;
+}
+.two {
+  width: 328px;  
+}
+.two h4 {
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.one {
+    margin-bottom: 50px;
+}
