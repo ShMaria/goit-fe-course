@@ -8,7 +8,7 @@
     background-size: cover;
     background-color: #54a8ba;
     padding: 10% 0 10% 0;
-counter-reset: variable; 
+    counter-reset: variable; 
 }
 .wrapper {
     width: 1016px;

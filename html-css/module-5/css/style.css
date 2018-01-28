@@ -1,0 +1,196 @@
+
+:root {
+    --size-triangle: 5px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page {
+    background-image: url(https://image.ibb.co/nq8PCw/Homework_4.png);
+  background-size: cover;
+  padding: 240px 0;
+}
+/* header */
+.menu {
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+
+.logo {
+    width: 139px;
+    height: 139px;
+    background-color: #fff;
+    color: #384769; 
+    border-radius: 50%;
+    position: relative;
+    left: 46%;
+    bottom: -80px;
+    text-align: center;
+    font-family: Pathway Gothic One;
+    font-size: 35px; 
+    line-height: 139px;
+  
+}
+
+.menu_item {
+    text-transform: uppercase;
+    display: inline-block;
+    position: relative;
+    font-size: 28px;
+    font-family: Pathway Gothic One;
+    list-style-type: none;
+    margin-left: 5%;
+}
+.gallery {
+    margin-right: 14%;
+}
+.submenu {
+    position: absolute;
+    display: none;
+    font-size: 20px;
+    list-style-type: none;
+    text-align: center;
+    /* top: 45px; */
+}
+.menu_item:hover > .submenu {
+    display: block;
+    background-color: #fff;
+}
+.menu_link {
+    text-decoration: none;
+    color: #fff;
+}
+.menu_link:hover {
+    color: #384769;
+}
+.submenu_link {
+    text-decoration: none;
+}
+/* .box-triangle {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: var(--size-triangle) solid #fff;
+    border-left: 5px solid transparent;
+    position: relative;
+    left: 30px;
+  } */
+.box_triangle {
+    display: none;
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: var(--size-triangle) solid #fff;
+    border-left: 5px solid transparent;
+    position: relative;
+    left: 30px; 
+}
+.menu_item:hover > .box_triangle { 
+    display: block;
+}
+/* wrapper */
+.wrapper {
+width: 1024px;
+background-color: #fff;
+margin: auto;
+padding: 61px;
+position: relative;
+}
+.sectionB {
+    width: 902px;
+}
+
+/* main section */
+.main_text {
+    position: relative;
+    bottom: 343px;
+    font-family: Pathway Gothic One;
+    text-transform: uppercase;
+    text-align: center;
+}
+.top {
+    width: 225px;
+    height: 61px;
+    background-color: #fff;
+    font-size: 22px;
+    color: #384769;
+    line-height: 61px;
+}
+.bottom {
+    width: 276px;
+    height: 60px;
+    background-color: #38afe5;
+    font-size: 34px;
+    color: #fff;
+    line-height: 60px;
+}
+.box_circle {
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    position: absolute;
+    top: 460px;
+    left: 80px;
+  }
+  .arrow {
+   width: 45px;
+   height: 90px;
+   text-decoration: none;
+   color: #fff;
+   display: inline-block;
+  }
+  .left {
+    background-color: #38afe5;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+  }
+  .right {
+    background-color: #38afe5;
+    border-top-right-radius: 45px;
+    border-bottom-right-radius: 45px;
+    margin: -4px;
+  }
+  .left::before {
+    content: "\2190";
+  }
+  .right::before {
+    content: "\2192";
+  }
+}
+/* section */
+.country {
+    width: 31%;
+    height: 100px;
+    display: inline-block;
+}
+.first {
+    width: 31%;
+    height: 270px;
+    background-image: url(https://image.ibb.co/jxrVuG/layer_15.png); 
+    display: inline-block;
+    margin-right: 26px;
+}
+
+.text_destinations {
+    font-size: 30px;
+    font-family: Pathway Gothic One - Book;
+    color: #384769;
+}
+.second {
+    width: 31%;
+    height: 270px;
+    background-image: url(https://image.ibb.co/cbGKob/layer_16.png);
+    display: inline-block;
+    margin-right: 26px;
+}
+.third {
+    width: 31%;
+    height: 270px;
+    background-image: url(https://image.ibb.co/bP0C8b/layer_17.png);
+    display: inline-block;
+}
