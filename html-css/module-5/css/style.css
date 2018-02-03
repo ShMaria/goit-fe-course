@@ -162,7 +162,7 @@ position: relative;
     display: inline-block;
     margin-right: 26px;
     position: relative;
-    bottom: 35px;
+    bottom: 32px;
 }
 
 .text_destinations {
@@ -223,7 +223,7 @@ display: inline-block;
 }
 .button {
     position: relative;
-    top: 20px;
+    top: 10px;
     left: 80px;
    padding: 2px;
 }
